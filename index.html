@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gokularasan | Electrical & Electronics Engineering Student</title>
+  <meta name="description" content="Portfolio of Gokularasan, an Electrical and Electronics Engineering student exploring renewable energy, embedded systems, IoT, energy monitoring and practical engineering applications." />
+  
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="Gokularasan | Electrical & Electronics Engineering Student" />
+  <meta property="og:description" content="Engineering portfolio featuring renewable energy systems, embedded IoT hardware, industrial exposure, and case studies." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/gokul_portrait.jpg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Core & Component Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+
+  <!-- Three.js 3D WebGL Canvas Layer -->
+  <div id="webgl-canvas-container">
+    <canvas id="webgl-canvas"></canvas>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-indicator"></span>
+        <span>GOKULARASAN</span>
+      </a>
+
+      <div class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#exploring" class="nav-link">Focus</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#exposure" class="nav-link">Exposure</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#profiles" class="nav-link">Profiles</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-cta">
+          <a href="assets/Gokularasan_Resume.docx" download="Gokularasan_Resume.docx" class="btn btn-primary btn-sm">
+            <span>Resume (.docx)</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 01. HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left Hero Content -->
+        <div class="hero-content">
+          <div class="hero-badge-group">
+            <span class="section-tag"><span class="dot"></span>ELECTRICAL & ELECTRONICS ENGINEERING</span>
+            <div class="status-pill">
+              <span class="pulse-dot"></span>
+              <span>Currently Building: Classroom Energy Monitor</span>
+            </div>
+          </div>
+
+          <h1 class="hero-title">Gokularasan</h1>
+          <div class="hero-subheading">Electrical Engineering Student Exploring Energy, Embedded Systems & Intelligent Technologies</div>
+          
+          <p class="hero-paragraph">
+            An Electrical and Electronics Engineering student interested in renewable energy, embedded systems, IoT, energy monitoring, and practical engineering applications. I enjoy connecting classroom concepts with real industrial systems through projects, technical exploration, and hands-on learning.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Work</span>
+            </a>
+            <a href="#resume" class="btn btn-secondary">
+              <span>View Resume</span>
+            </a>
+          </div>
+
+          <!-- Technical Chips & Socials -->
+          <div class="hero-tech-chips">
+            <span class="tech-chip">EEE</span>
+            <span class="tech-chip">IoT</span>
+            <span class="tech-chip">ENERGY</span>
+            <span class="tech-chip">EMBEDDED</span>
+            <span class="tech-chip">RENEWABLE</span>
+            <span class="tech-chip">SOLAR EPC</span>
+          </div>
+
+          <div class="hero-social-links">
+            <a href="https://www.linkedin.com/in/gokularasan183/" target="_blank" rel="noopener noreferrer" class="hero-social-link">
+              <span>LinkedIn ↗</span>
+            </a>
+            <a href="https://github.com/gokularasan-bot" target="_blank" rel="noopener noreferrer" class="hero-social-link">
+              <span>GitHub ↗</span>
+            </a>
+            <a href="mailto:gokularasan.28eee@gmail.com" class="hero-social-link">
+              <span>gokularasan.28eee@gmail.com</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual / Editorial Portrait Frame -->
+        <div class="hero-visual">
+          <div class="portrait-frame-wrapper">
+            <div class="portrait-frame">
+              <div class="portrait-img-container">
+                <img src="assets/gokul_portrait.jpg" alt="Gokularasan" class="portrait-img" />
+              </div>
+              <div class="portrait-meta">
+                <div class="portrait-tag">
+                  <span class="dot"></span>
+                  <span>B.E. EEE &bull; KCT</span>
+                </div>
+                <span>TAMIL NADU, INDIA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Subtle Scroll Indicator -->
+    <div class="scroll-indicator">
+      <span>SCROLL TO EXPLORE</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- 02. ABOUT SECTION -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><span class="dot"></span>ABOUT ME</span>
+        <h2 class="section-title">Engineering with a Practical Perspective</h2>
+        <p class="section-lead">
+          Bridging theoretical electrical systems with physical microcontrollers, solar installations, and industrial workflows.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-content">
+          <h3>Who I Am & What I Explore</h3>
+          <p>
+            I am an undergraduate Electrical and Electronics Engineering student at <strong>Kumaraguru College of Technology (KCT)</strong>. My focus centers around understanding energy dynamics—from high-voltage industrial machines and utility solar installations down to low-power embedded microcontrollers and IoT telemetry.
+          </p>
+          <p>
+            Rather than treating engineering purely as abstract theory, I continually seek practical experimentation: building energy monitoring test benches, running sensor comparative analysis, participating in technical hackathons, and studying real-world manufacturing plants.
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar-item">
+              <div class="pillar-title">⚡ Electrical & Energy</div>
+              <div class="pillar-desc">Solar PV architectures, inverter comparisons, VFD harmonics, and industrial motor manufacturing.</div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-title">📟 Embedded & IoT</div>
+              <div class="pillar-desc">ESP32 & Arduino hardware prototyping, sensor data acquisition, and live web dashboards.</div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-title">🏭 Industrial Exposure</div>
+              <div class="pillar-desc">Hands-on exposure to ISO quality standards, 5S, TQM, and full-scale automated manufacturing.</div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-title">🌱 Climate & Sustainability</div>
+              <div class="pillar-desc">Active organizer and student coordinator for sustainability conclaves and energy initiatives.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3-Layer Perspective Depth Card -->
+        <div class="about-card-3d">
+          <div class="about-card-layer-1">
+            <div class="about-card-header">
+              <span>ENGINEERING FOUNDATION</span>
+              <span>KCT &bull; EEE</span>
+            </div>
+            <ul class="about-card-list">
+              <li>
+                <span class="bullet-node"></span>
+                <span><strong>Academic Rigor:</strong> Power systems, machines, circuit theory & control systems.</span>
+              </li>
+              <li>
+                <span class="bullet-node"></span>
+                <span><strong>Hardware Prototyping:</strong> ESP32, current sensing, voltage transducers & IoT telemetry.</span>
+              </li>
+              <li>
+                <span class="bullet-node"></span>
+                <span><strong>Industrial Internships:</strong> Motor coil-winding at Electromotive Power Drives & Solar EPC at Mara Signex.</span>
+              </li>
+              <li>
+                <span class="bullet-node"></span>
+                <span><strong>Process Analysis:</strong> Automated spinning flows at Ambertex & manufacturing tech at INTEC 2026.</span>
+              </li>
+              <li>
+                <span class="bullet-node"></span>
+                <span><strong>Initiative:</strong> Event coordination, technical presentations, and sustainability hackathons.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03. WHAT I'M EXPLORING (FOCUS MODULES) -->
+  <section class="section" id="exploring" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><span class="dot"></span>CORE DOMAINS</span>
+        <h2 class="section-title">What I'm Exploring</h2>
+        <p class="section-lead">
+          Six foundational engineering pillars shaping my technical projects, research, and industrial trajectory.
+        </p>
+      </div>
+
+      <div class="focus-grid" id="focus-grid-container">
+        <!-- Rendered dynamically by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 04. SKILLS SECTION ("THE ENGINEERING STACK") -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><span class="dot"></span>TECHNICAL MATRIX</span>
+        <h2 class="section-title">The Engineering Stack</h2>
+        <p class="section-lead">
+          Categorized technical proficiencies, engineering tools, analytical methods, and professional capabilities.
+        </p>
+      </div>
+
+      <div class="skills-container">
+        <div class="skills-nav" id="skills-nav-container">
+          <!-- Rendered dynamically by main.js -->
+        </div>
+        <div class="skills-grid" id="skills-grid-container">
+          <!-- Rendered dynamically by main.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05. PROJECTS SECTION -->
+  <section class="section" id="projects" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><span class="dot"></span>CASE STUDIES</span>
+        <h2 class="section-title">Engineering Projects</h2>
+        <p class="section-lead">
+          Benchtop hardware prototyping, sensor data acquisition, and real-time telemetry systems currently in active development.
+        </p>
+      </div>
+
+      <div class="projects-stack" id="projects-stack-container">
+        <!-- Rendered dynamically by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 06. INDUSTRY EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><span class="dot"></span>PRACTICAL EXPOSURE</span>
+        <h2 class="section-title">Industry Experience</h2>
+        <p class="section-lead">
+          Structured industrial internships focused on electrical motor manufacturing and solar energy EPC operations.
+        </p>
+      </div>
+
+      <div class="timeline-track" id="experience-track-container">
+        <!-- Rendered dynamically by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 07. INDUSTRIAL EXPOSURE -->
+  <section class="section" id="exposure" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><span class="dot"></span>FIELD VISITS & ECOSYSTEMS</span>
+        <h2 class="section-title">Industrial Exposure</h2>
+        <p class="section-lead">
+          Direct exposure to advanced machine tool trade fairs and automated large-scale textile manufacturing facilities.
+        </p>
+      </div>
+
+      <div class="exposure-grid">
+        <div id="intec-card-container"></div>
+        <div id="ambertex-card-container"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 08. EDUCATION -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><span class="dot"></span>ACADEMIC TRAJECTORY</span>
+        <h2 class="section-title">Education</h2>
+        <p class="section-lead">
+          Foundational schooling, higher secondary achievements, and undergraduate electrical engineering education.
+        </p>
+      </div>
+
+      <div class="education-cards-grid" id="education-grid-container">
+        <!-- Rendered dynamically by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 09. ACHIEVEMENTS, HACKATHONS & EVENTS -->
+  <section class="section" id="achievements" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><span class="dot"></span>INITIATIVES & CO-CURRICULAR</span>
+        <h2 class="section-title">Achievements, Hackathons & Events</h2>
+        <p class="section-lead">
+          Active contributions as management team member, participant, student coordinator, and conclave organizer.
+        </p>
+      </div>
+
+      <div class="events-grid" id="achievements-grid-container">
+        <!-- Rendered dynamically by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. PROFILES & CONNECT -->
+  <section class="section" id="profiles">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><span class="dot"></span>NETWORKS</span>
+        <h2 class="section-title">Connect & Explore</h2>
+        <p class="section-lead">
+          Verified professional profiles, code repositories, and direct technical communication channels.
+        </p>
+      </div>
+
+      <div class="profiles-grid" id="profiles-grid-container">
+        <!-- Rendered dynamically by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. RESUME SECTION -->
+  <section class="section" id="resume" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><span class="dot"></span>CURRICULUM VITAE</span>
+        <h2 class="section-title">Official Resume</h2>
+        <p class="section-lead">
+          Download the complete verified engineering resume in DOCX format or preview the document directly.
+        </p>
+      </div>
+
+      <div class="resume-box">
+        <div class="resume-preview-panel" id="resume-preview-trigger" title="Click to expand high-resolution preview">
+          <img src="assets/resume_preview.png" alt="Gokularasan Resume Preview" class="resume-preview-img" />
+          <div class="resume-preview-overlay">
+            <span>🔍 Click to Expand Document</span>
+          </div>
+        </div>
+
+        <div class="resume-details">
+          <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-copper); margin-bottom: 8px;">
+            VERIFIED CREDENTIALS
+          </div>
+          <h3 style="font-size: 1.8rem; margin-bottom: 14px; color: var(--text-primary);">Gokularasan's Resume</h3>
+          <p style="font-size: 0.96rem; color: var(--text-secondary); line-height: 1.65; margin-bottom: 20px;">
+            Contains comprehensive documentation of academic percentages, B.E. EEE coursework, hardware IoT test benches, solar EPC internship at Mara Signex, motor manufacturing at Electromotive Power Drives, and event leadership roles.
+          </p>
+
+          <div style="background: var(--bg-primary); padding: 14px 18px; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); margin-bottom: 24px; font-family: var(--font-mono); font-size: 0.82rem; color: var(--text-muted);">
+            📄 <strong>Format:</strong> Microsoft Word Document (.docx) &bull; <strong>Status:</strong> Up to Date (2026)
+          </div>
+
+          <div class="resume-actions">
+            <a href="assets/Gokularasan_Resume.docx" download="Gokularasan_Resume.docx" class="btn btn-primary">
+              <span>Download Resume (.docx)</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+            </a>
+            <button class="btn btn-secondary" onclick="document.getElementById('resume-modal').classList.add('open')">
+              <span>Expand Preview</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. CONTACT SECTION -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><span class="dot"></span>GET IN TOUCH</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-lead">
+          Interested in engineering projects, internships, technical collaboration, or professional opportunities? Feel free to reach out.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information -->
+        <div class="contact-info-card">
+          <h3 style="font-size: 1.4rem; margin-bottom: 20px; color: var(--text-primary);">Communication Channels</h3>
+          
+          <div class="contact-detail-row">
+            <div class="icon-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">DIRECT EMAIL</div>
+              <a href="mailto:gokularasan.28eee@gmail.com" style="font-weight: 600; color: var(--accent-blue);">gokularasan.28eee@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-detail-row">
+            <div class="icon-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">LOCATION</div>
+              <div style="font-weight: 500; color: var(--text-primary);">Coimbatore, Tamil Nadu, India</div>
+            </div>
+          </div>
+
+          <div class="contact-detail-row">
+            <div class="icon-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div>
+              <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">PROFESSIONAL NETWORK</div>
+              <a href="https://www.linkedin.com/in/gokularasan183/" target="_blank" rel="noopener noreferrer" style="font-weight: 600; color: var(--accent-blue);">linkedin.com/in/gokularasan183 ↗</a>
+            </div>
+          </div>
+
+          <div style="margin-top: 32px; padding: 16px; background: var(--bg-secondary); border-radius: var(--radius-md); font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+            💡 <strong>Engineering Focus:</strong> Open to summer internships, industrial research projects, and embedded IoT collaborations.
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-card">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label class="form-label" for="form-name">Your Name</label>
+              <input type="text" id="form-name" class="form-input" placeholder="e.g. Dr. Ramesh Kumar / Jane Doe" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-email">Your Email Address</label>
+              <input type="email" id="form-email" class="form-input" placeholder="e.g. name@domain.com" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-subject">Subject</label>
+              <input type="text" id="form-subject" class="form-input" placeholder="e.g. Internship Opportunity / Technical Collaboration" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-message">Message</label>
+              <textarea id="form-message" class="form-textarea" placeholder="Describe the project, inquiry, or opportunity..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Send Message</span>
+            </button>
+
+            <div class="form-notice">
+              🔒 Direct frontend submission. For urgent correspondence, please email directly to <strong>gokularasan.28eee@gmail.com</strong>.
+            </div>
+
+            <div class="form-feedback" id="form-feedback"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13. FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h4>Gokularasan</h4>
+          <p>B.E. Electrical & Electronics Engineering &bull; Kumaraguru College of Technology</p>
+          <p style="font-style: italic; color: var(--accent-blue); margin-top: 4px;">"Engineering ideas into practical systems."</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/gokularasan183/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn ↗</a>
+          <a href="https://github.com/gokularasan-bot" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub ↗</a>
+          <a href="mailto:gokularasan.28eee@gmail.com" class="footer-link">Email</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Gokularasan. All rights reserved.</div>
+        <div>Designed with Three.js WebGL & Vanilla Engineering Architecture</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal: Project Detailed Case Study -->
+  <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div id="project-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Modal: Resume Full Document Preview -->
+  <div class="modal-backdrop" id="resume-modal" role="dialog" aria-modal="true">
+    <div class="modal-card" style="max-width: 900px;">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h3 style="font-size: 1.4rem; color: var(--text-primary);">Document Preview &bull; Gokularasan Resume</h3>
+        <a href="assets/Gokularasan_Resume.docx" download="Gokularasan_Resume.docx" class="btn btn-primary btn-sm">
+          <span>Download .docx</span>
+        </a>
+      </div>
+      <div style="text-align: center; background: #FFFFFF; padding: 12px; border-radius: var(--radius-md); border: 1px solid var(--border-medium);">
+        <img src="assets/resume_preview.png" alt="Gokularasan Resume Full Preview" style="max-width: 100%; height: auto; display: block; margin: 0 auto; box-shadow: var(--shadow-md);" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Modules -->
+  <script type="module" src="js/three-scene.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
